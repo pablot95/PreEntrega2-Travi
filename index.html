@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Pen+Script&family=Platypi:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cannis Petshop</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="img/cannis logo-13.png" alt="Logo cannis" width="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos <i class="bi bi-chevron-down"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="/pages/Productos.html">Todos</a></li>
+                    <li><a class="dropdown-item" href="./pages/Gatos.html">Gatos</a></li>
+                    <li><a class="dropdown-item" href="./pages/Perros.html">Perros</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/Nostros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/pages/Contacto.html">Contacto</a>
+            </li>
+            </ul>
+            <form class="d-flex ms-auto">
+                <input class="form-control me-2" type="search" placeholder="Todavia no funciona " aria-label="Search">
+                <button class="btn btn-custom" type="submit">Buscar</button>
+            </form>
+        </div>
+        </div>
+    </header>
+    <div class="container-fluid main-content p-0 mt-0">
+        <div class="rectangle">
+            <img src="img/entrega (3).png" alt="Envios gratis" class="rectangle-img">
+            <p>¡¡Envíos a la puerta de tu casa en 24hs!!</p>
+        </div>
+    </div>
+    <div class="container-fluid mt-0 mb-0 p-0">
+        <div class="row">
+            <div class="col-md-6">
+                <a href="./pages/Gatos.html" class="d-block mb-3 mb-md-0 position-relative overflow-hidden rounded">
+                <img src="img/cat-6593947_1280.jpg" alt="alimento para gatos" class="img-fluid w-100">
+                <div class="overlay">
+                    <p class="text-center text-white mb-0">Todo para gatos</p>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a href="./pages/Perros.html" class="d-block position-relative overflow-hidden rounded">
+                <img src="img/puppy-1903313_1280.jpg" alt="alimento para perros" class="img-fluid w-100">
+                <div class="overlay">
+                    <p class="text-center text-white mb-0">Todo para perros</p>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="fondo">
+        <h2 class="marcas">Buscá por marcas</h2>
+        <div class="top-images">
+            <img class="expand" src="img/royal.png" alt="Royal Canin">
+            <img class="expand" src="img/excellent2.png" alt="excellent purina">
+        </div>
+        <div class="bottom-images">
+            <img class="expand" src="img/proplan3.png" alt="proplan">
+            <img class="expand" src="img/oldprince.png" alt="old prince">
+            <img class="expand" src="img/eukanuba.png" alt="eukanuba">
+        </div>
+    </div>
+    <div>
+        <h2 class="categorias">Buscá por categorías</h2>
+        <div class="grid-container">
+            <div class="grid-item item1 expand">Cachorros</div>
+            <div class="grid-item item2 expand">Adultos</div>
+            <div class="grid-item item3 expand">Senior</div>
+            <div class="grid-item item4 expand">Cuidados especiales</div>
+            <div class="grid-item item5 expand">Razas pequeñas</div>
+            <div class="grid-item item6 expand">Razas medianas</div>
+            <div class="grid-item item7 expand">Razas grandes</div>
+        </div>
+    </div>
+    <div>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="img/sibuscabas.jpg" class="d-block img-fluid d-none d-lg-block" alt="Oferta alimento para mascotas" style="height: 600px;">
+                        <img src="img/sibuscabas2.jpg" class="d-block img-fluid d-lg-none" alt="Oferta alimento para mascotas" style="height: 850px;">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="img/10OFF (2).png" class="d-block img-fluid" alt="Oferta alimento para mascotas" style="height: 600px;">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <i class="fa-solid fa-chevron-left"></i>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="carousel-control-next-icon"  aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+            </div>
+    </div>
+    <footer class="bg-dark text-light " style="min-height: 320px;">
+        <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <a href="#">
+                    <img src="../img/cannis logo-13.png" alt="Logo cannis" class="img-fluid expand">
+                </a>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="#" class="d-block">Inicio</a>
+                        <a href="./pages/Nostros.html" class="d-block">Nosotros</a>
+                        <a href="./pages/Contacto.html" class="d-block">Contacto</a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="./pages/Productos.html" class="d-block">Todos los productos</a>
+                        <a href="./pages/Gatos.html" class="d-block">Gatos</a>
+                        <a href="./pages/Perros.html" class="d-block">Perros</a>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 30px;">
+                <p >Todos los derechos reservados   Cannis 2024</p> <a href="" ><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="" ><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-regular fa-envelope"></i></a>
+                
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
