@@ -18,9 +18,10 @@ header li{
 .navbar-brand img{
     width: 200px;
     transition: 0.5s;
-}
-.navbar-brand img:hover{
-    transform: scale(1.1);
+
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 .navbar-brand,
 .navbar-nav .nav-link {
@@ -31,12 +32,11 @@ header li{
     background-color: #1B878B; 
     border-color: #BBF0F2; 
     color: white;
-}
 
-.btn-custom:hover {
+    &:hover {
     background-color: #2f3438;
     border-color: #2f3438;
-    color: white;
+    }
 }
 
 .dropdown:hover .dropdown-menu {
@@ -99,12 +99,12 @@ header li{
     justify-content: center;
     opacity: 100;
     transition: opacity 0.3s ease;
-}
 
-.overlay p {
+    p {
     font-size: 20px;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
 }
 
 
@@ -151,12 +151,8 @@ header li{
     margin-top: 300px;
 }
 
-.fa-chevron-right{
-    font-size: 40px;
-    margin-left: 20px;
-
-}
-.fa-chevron-left{
+.fa-chevron-right,
+.fa-chevron-left {
     font-size: 40px;
     margin-left: 20px;
 }
@@ -186,44 +182,30 @@ header li{
     border-radius: 20px;
 }
 
-.top-images{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.top-images img{
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 50px;
-    width: 200px; 
-    background-color: rgb(240, 240, 240); 
-    padding: 10px; 
-    border-radius: 10px; 
-}
+.top-images,
 .bottom-images {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.bottom-images img{
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-    width: 200px; 
-    background-color: #f0f0f0; 
-    padding: 10px; 
-    border-radius: 10px; 
+
+
+.top-images img,
+.bottom-images img {
+    margin: 30px;
+    width: 200px;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 
-.expand{
+.expand {
     transition: 0.2s;
-}
-.expand:hover{
+
+    &:hover {
     transform: scale(1.1);
+    }
 }
 
 
@@ -262,9 +244,10 @@ header li{
     text-shadow: 0px 0px 2px black ;
     text-align: center;
     filter: grayscale(0.5);
-}
-.grid-item:hover{
+
+    &:hover{
     filter: grayscale(0);
+    }
 }
 
 
@@ -310,15 +293,16 @@ header li{
 .text-container1 {
     text-align: center;
     color: white; 
-}
 
-.text-container1 h1 {
+
+    h1 {
     font-size: 50px; 
     font-weight: 700;
-}
+    }
 
-.text-container1 p {
+    p {
     font-size: 30px; 
+    }
 }
 
 .nuestrolocal{
@@ -333,28 +317,29 @@ header li{
     color: #24585A;
     margin-left: 40px;
     margin-top: 20px;
-}
-.text-container2 h2{
+
+    h2{
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 40px;
     margin-top: 20px;
-}
-.text-container2 p{
+    }
+    p{
     font-size: 30px;
     font-weight: 400;
+    }
 }
 
 .text-with-button {
     display: flex;
     align-items: center;
-}
 
-.text-with-button p {
+
+    p {
     margin-right: 20px;
     margin-top: 10px;
-}
-.text-with-button button{
+    }
+    button{
     height: 30px;
     width: 300px;
     font-size: 20px;
@@ -363,11 +348,14 @@ header li{
     background-color: green;
     padding: 0px;
     border-radius: 40px;
+
+        i{
+        margin-right: 10px;
+        margin-left: 5px;
+        }
+    }
 }
-.text-with-button button i{
-    margin-right: 10px;
-    margin-left: 5px;
-}
+
 .d-flex input{
     border-radius: 40px;
     width: 300px;
@@ -407,16 +395,11 @@ header li{
 }
 
 
-.card-body ul li a{
-    text-decoration: none;
-    color: black;
-}
-
+.card-body ul li a,
 .page-item a{
     text-decoration: none;
     color: black;
 }
-
 
 
 
@@ -429,25 +412,26 @@ footer {
     background-color: #333; 
     color: white; 
     margin-top: 20px;
-}
-footer .row{
+
+    .row{
     margin-top: 10px;
     padding: 4px;
     margin-bottom: 0px;
-}
-footer img{
+    }
+    img{
     height: auto;
     width: 300px;
-}
-footer a{
+    }
+    a{
     font-size: 20px;
     text-decoration: none;
     color: white;
     padding: 10px;
-}
+    }
 
-footer p{
+    p{
     font-size: 20px;
+    }
 }
 
 
