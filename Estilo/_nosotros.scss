@@ -1,0 +1,118 @@
+.seaimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/sea-turtle-1851102_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+
+.text-container1 {
+    text-align: center;
+    color: white; 
+
+
+    h1 {
+    font-size: 50px; 
+    font-weight: 700;
+    }
+
+    p {
+    font-size: 30px; 
+    }
+}
+
+.nuestrolocal{
+    background-color: #dbdbdb;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.text-container2{
+    text-align: left;
+    color: #24585A;
+    margin-left: 40px;
+    margin-top: 20px;
+
+    h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    }
+    p{
+    font-size: 30px;
+    font-weight: 400;
+    }
+}
+
+.text-with-button {
+    display: flex;
+    align-items: center;
+
+
+    p {
+    margin-right: 20px;
+    margin-top: 10px;
+    }
+    button{
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: green;
+    padding: 0px;
+    border-radius: 40px;
+
+        i{
+        margin-right: 10px;
+        margin-left: 5px;
+        }
+    }
+}
+
+.d-flex input{
+    border-radius: 40px;
+    width: 300px;
+}
+.d-flex button{
+    border-radius: 40px;
+}
+.d-flex input,
+.d-flex button{
+    margin-right: 3px;
+    margin-bottom: 20px;
+}
+
+.contacto h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1B878B;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+
+}
+
+
+
+
+
+
+.productosh2{
+    color: #1B878B;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+
+.card-body ul li a,
+.page-item a{
+    text-decoration: none;
+    color: black;
+}
