@@ -1,10 +1,14 @@
+$color1: #BBF0F2;
+$w100: 100%;
+$med: 40px;
+
 .main-content {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 35px;
     background-color: #f0f0f0;
-    width: 100%;
+    width: $w100;
 }
 
 .rectangle p{
@@ -13,9 +17,9 @@
 
 .rectangle {
     display: flex;
-    width: 100%;
+    width: $w100;
     height: 30px; 
-    background-color: #BBF0F2;
+    background-color: $color1;
     color: #ffffff;
     text-shadow: 1px 1px 2px black;
     padding: 10px;
@@ -41,7 +45,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: $w100;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     display: flex;
@@ -103,7 +107,7 @@
 
 .fa-chevron-right,
 .fa-chevron-left {
-    font-size: 40px;
+    font-size: $med;
     margin-left: 20px;
 }
 
@@ -118,12 +122,12 @@
 }
 
 .marcas{
-    color: #BBF0F2;
+    color: $color1;
     margin-top: 0px;
     margin-bottom: 60px;
     margin-left: 15px;
     font-weight: 600;
-    font-size: 40px;
+    font-size: $med;
     border-radius: 20px;
 }
 
@@ -161,7 +165,7 @@
 .categorias{
     color: #24585A;
     font-weight: 600;
-    font-size: 40px;
+    font-size: $med;
     margin-top: 15px;
     margin-left: 15px;
 }
